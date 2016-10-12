@@ -4,6 +4,8 @@
 # yum -y -q update
 
 yum -y install tomcat tomcat-webapps tomcat-admin-webapps
+yum -y install maven
+yum -y install git
 
 systemctl disable firewalld
 sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config

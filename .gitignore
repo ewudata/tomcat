@@ -12,3 +12,7 @@
 hs_err_pid*
 
 .vagrant/
+struts-2.5.2-all.zip
+conf/
+log/
+struts-2.5.2/
